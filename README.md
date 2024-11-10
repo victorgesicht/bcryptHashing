@@ -7,7 +7,7 @@ Installation:: npm i bcrypt
 
 Has it's method to perform functions i.e genSalt, bycrypt.hash
 
-Asynch and await are import part of the code to prevent blocking of the main threads.
+Asynch and await are important parts of the code to prevent blocking of the main threads.
 
 BCRYPT KEY:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
