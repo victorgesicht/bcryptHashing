@@ -1,0 +1,23 @@
+$2y$10$4OWXq6is8masdO5OVIPx/urt5r6LU2RLGHSfLh5GKk1FTd3IJFA3u--------( transaction key)
+
+$2y -- algorithm idenytifier.
+$10 -- number of rounds.
+$4OWXq6is8masdO5OVIPx/urt5r6LU2RLGHSfLh5GKk1FTd3IJFA3u-- salt??
+
+$2y$10$doF9WS84i/r2KbJYRL27G.zaj76Jl7U4F.tgg/243irv2kXEs7JUm----=superuser.
+$2y$10$mLCIMDdZpV7r25q2EbH32uwe.EO76AUrdAv2AqbyC7Kay0rd.5nKy ---=yadayada.
+
+_________________________________________________
+|                                               |
+|                                               |
+|******************I"M LOST*********************|
+|                                               |
+|                                               |
+_________________________________________________
+
+
+
+435b69b37e829289dd128044a648dc51 --Md5 pointing to transaction key.
+
+
+
