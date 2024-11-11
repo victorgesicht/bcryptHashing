@@ -10,18 +10,20 @@ Has it's method to perform functions i.e bycyrpt.genSalt, bycrypt.hash
 Asynch and await are important parts of the code to prevent blocking of the main threads.
 
 BCRYPT KEY skeleton:
+
+str: "abc"
 $2b$10$wHoplV8Nk0fOYIWQb6MzGe 29
-bcryptHashing.js:6
+
 $2b$10$wHoplV8Nk0fOYIWQb6MzGeYoDRPSssnE4rD5Zrn3CqhbUaZJ9tI0i 60
 -------------------------------------------------------------------------------------------------------------
 $2b                   |    $10                   |                  $wHoplV8Nk0fOYIWQb6MzGe
 -------------------------------------------------------------------------------------------------------------
-algorithm identifier  |  number of rounds        |                    salt/random string
+algorithm identifier  |  number of rounds        |                    salt/random string               
 
 -------------------------------------------------------------------------------------------------------------
 AFTER HASHING::
 ----------------------------------------------------------------------------------------------------------------------------------------
 $2y                    |        $10                |        $wHoplV8Nk0fOYIWQb6MzGe         |         YoDRPSssnE4rD5Zrn3CqhbUaZJ9tI0i
 ----------------------------------------------------------------------------------------------------------------------------------------
-algorithm identifier   |    number of rounds       |                 salt                       |          value/secret hash                                 
+algorithm identifier   |    number of rounds       |                 salt                   |          value/secret hash                                 
 ----------------------------------------------------------------------------------------------------------------------------------------
